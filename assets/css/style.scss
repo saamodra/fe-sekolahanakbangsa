@@ -39,8 +39,6 @@ h3 {
             object-fit: cover;
         }
     }
-
-
 }
 
 .carousel-content {
@@ -71,6 +69,16 @@ h3 {
         position: absolute;
         margin-top: 20px;
     }
+}
+
+.carousel-aksi {
+    height: 500px;
+    width: 100%;
+}
+
+.carousel-aksi img{
+    height: 500px;
+    object-fit: cover;
 }
 
 
@@ -215,6 +223,9 @@ section.doa {
     .section-title {
         color: white;
     }
+}
+.section-page {
+    margin-top: 100px;
 }
 .subscription {
     margin: 0;

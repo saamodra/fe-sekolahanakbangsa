@@ -3,7 +3,7 @@ $(window).scroll(function(){
         scroll = $(window).scrollTop(),
         windowWidth = $(window).width();
 
-    if(!$('body').hasClass('page-blog')) {
+    if(!$('body').hasClass('page-1')) {
       if(windowWidth > 992) {
         if(scroll >= 100) {
           sticky.removeClass('navbar-dark').addClass('nav-sticky navbar-light')

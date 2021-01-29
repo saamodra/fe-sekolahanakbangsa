@@ -570,6 +570,17 @@ footer {
     }
 }
 
+.h-unset {
+    height: unset !important;
+}
+
+.img-pembayaran {
+    width: 75px;
+    height: 75px;
+    object-position: center;
+    object-fit: cover;
+}
+
 @media screen and (max-width: 768px) {
     html {
         font-size: 13px;

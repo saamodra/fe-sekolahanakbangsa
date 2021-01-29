@@ -636,6 +636,19 @@ footer .list ul li a:hover {
   font-size: 1em;
 }
 
+.h-unset {
+  height: unset !important;
+}
+
+.img-pembayaran {
+  width: 75px;
+  height: 75px;
+  -o-object-position: center;
+     object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 @media screen and (max-width: 768px) {
   html {
     font-size: 13px;

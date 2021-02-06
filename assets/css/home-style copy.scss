@@ -1,4 +1,5 @@
-$sf : 'Open Sans';
+$sf : 'SF Pro Display Regular';
+$open : 'Open Sans';
 $apercu : 'Apercu Regular';
 $red : #dc3545;
 $red-dim : #b3101a;
@@ -7,7 +8,7 @@ $gray : #e9e9e9;
 html, body {
     margin: 0;
     padding: 0;
-    font-family: $sf;
+    font-family: $open;
     background-color: white;
     width: 100%;
     height: 100%;
@@ -513,6 +514,14 @@ footer {
 .login-container {
     display: flex;
     height: 100%;
+    font-family: $sf;
+}
+
+
+.register-form {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    align-items: start !important;
 }
 
 .login-aside {
@@ -551,6 +560,7 @@ footer {
     justify-content: center;
     align-items: center;
     font-family: $apercu;
+    overflow-y: scroll;
 
     h5 {
         font-family: $sf;
